@@ -32,6 +32,25 @@ Track your spending, set goals, and flow towards financial freedom.
    yarn dev
    ```
 
+## Running Tests
+
+This project uses [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for unit and component testing.
+
+- To run all tests:
+  ```bash
+  npm test
+  # or
+  yarn test
+  ```
+- To run tests in watch mode:
+  ```bash
+  npm run test:watch
+  # or
+  yarn test:watch
+  ```
+
+Test files are typically located in `__tests__` directories alongside the code they are testing (e.g., `src/components/ui/__tests__/button.test.tsx`).
+
 ## Style Guidelines
 
 - Primary color: Teal (#008080)
